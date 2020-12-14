@@ -1,14 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import {AmplifySignOut, withAuthenticator} from '@aws-amplify/ui-react';
+
+Amplify.configure(awsconfig);
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Down2Clown yuh aye</p>
+        <AmplifySignOut/>
+        <h2>Rushtrackr app content</h2>
       </header>
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);

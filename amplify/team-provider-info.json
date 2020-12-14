@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rushtrackr-dev-185547-authRole",
+      "UnauthRoleArn": "arn:aws:iam::794198348463:role/amplify-rushtrackr-dev-185547-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::794198348463:role/amplify-rushtrackr-dev-185547-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-rushtrackr-dev-185547-deployment",
+      "UnauthRoleName": "amplify-rushtrackr-dev-185547-unauthRole",
+      "StackName": "amplify-rushtrackr-dev-185547",
+      "StackId": "arn:aws:cloudformation:us-east-1:794198348463:stack/amplify-rushtrackr-dev-185547/b9dc1ef0-3d9e-11eb-9e8e-0af49fb39b33",
+      "AmplifyAppId": "d3o24mpz4xoair"
+    },
+    "categories": {
+      "auth": {
+        "rushtrackr9ed4b9a8": {}
+      }
+    }
+  }
+}

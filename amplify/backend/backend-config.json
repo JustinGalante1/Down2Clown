@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "rushtrackr9ed4b9a8": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
