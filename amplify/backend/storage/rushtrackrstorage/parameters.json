@@ -1,0 +1,5 @@
+{
+    "tableName": "rushtrackrstorage",
+    "partitionKeyName": "events",
+    "partitionKeyType": "S"
+}
