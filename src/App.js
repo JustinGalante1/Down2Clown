@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <AmplifySignOut/>
-        <h2>Rushtrackr app content</h2>
+        <h2>Rushtrackr app content woo hoo</h2>
       </header>
     </div>
   );
